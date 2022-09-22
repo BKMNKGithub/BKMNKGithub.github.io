@@ -1,0 +1,49 @@
+.side-anon {
+  overflow: hidden;
+  position: absolute;
+  z-index: -9999;
+}
+
+.site-body {
+  background-color: #161616;
+  color: #cccccc;
+  margin: 0px;
+}
+
+.site-content {
+  font-family: "Roboto";
+}
+
+.site-logo-text {
+  font-family: serif;
+  font-size: 100px;
+  text-align: center;
+}
+
+.site-label-text {
+  font-family: serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.site-default-text {
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.site-footer {
+  background-color: black;
+  margin: 0;
+  text-align: center;
+}
+
+.footer-anonymous-icon {
+  width: 15%;
+  height: auto;
+}
+
+.footer-main-context {
+  font-family: "微软雅黑","宋体";
+  font-size: 0.8rem;
+}
