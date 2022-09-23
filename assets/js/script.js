@@ -10,6 +10,7 @@ function scriptMain() {
   left_anon.style.position = 'fixed';
 
   let coding_image = document.getElementById('coding-image');
+  let revolution_image = document.getElementById('revolution-image');
   let site_works = document.getElementById('site-work');
 
   window.addEventListener("resize", (event) => {

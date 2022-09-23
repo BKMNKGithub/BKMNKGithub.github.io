@@ -45,6 +45,10 @@
   background-color: #191919;
 }
 
+.site-next-target {
+  background-color: #151515;
+}
+
 .bullet-container{
   float: left;
   margin-right: 10px;
@@ -87,6 +91,18 @@
   background-color: black;
   margin: 0;
   text-align: center;
+}
+
+.site-purpose {
+  display: flex;
+  background-color: #0e0e0e;
+}
+
+.site-right-container {
+  margin-right: 0;
+  margin-left: auto;
+  padding: 24px;
+  max-width: 550px;
 }
 
 .footer-anonymous-icon {
