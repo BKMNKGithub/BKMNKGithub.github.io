@@ -1,3 +1,9 @@
+@media screen and (max-width: 720px) {
+  .site-works {
+    display: none;
+  }
+}
+
 .side-anon {
   overflow: hidden;
   position: absolute;
@@ -35,6 +41,7 @@
   background-color: #151515;
 }
 .site-works {
+  display: flex;
   background-color: #191919;
 }
 
@@ -44,9 +51,7 @@
 }
 
 .image-container {
-  margin-top: 50px;
   float: left;
-  margin-right: 10px;
 }
 
 .default-bullet{
