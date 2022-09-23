@@ -13,6 +13,14 @@ function scriptMain() {
   let revolution_image = document.getElementById('revolution-image');
   let site_works = document.getElementById('site-work');
   let site_purpose = document.getElementById('site-purpose');
+  
+  if (window.innerWidth < 1100) {
+    coding_image.style.marginTop = ((site_works.clientHeight - coding_image.clientHeight) / 2) + "px";
+    revolution_image.style.marginTop = ((site_purpose.clientHeight - revolution_image.clientHeight) / 2) + "px";
+  } else {
+    coding_image.style.marginTop = 0;
+    revolution_image.style.marginTop = 0;
+  }
 
   window.addEventListener("resize", (event) => {
     if (window.innerWidth < 1100) {
