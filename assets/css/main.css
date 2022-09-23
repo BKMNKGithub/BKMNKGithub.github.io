@@ -1,9 +1,3 @@
-@media screen and (max-width: 720px) {
-  .site-works {
-    display: none;
-  }
-}
-
 .side-anon {
   overflow: hidden;
   position: absolute;
