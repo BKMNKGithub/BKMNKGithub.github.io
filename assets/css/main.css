@@ -11,7 +11,7 @@
 }
 
 .site-content {
-  font-family: "Roboto";
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .site-logo-text {
@@ -26,8 +26,54 @@
   text-align: center;
 }
 
+.site-introduction-container {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.site-introduction {
+  background-color: #151515;
+}
+.site-works {
+  background-color: #191919;
+}
+
+.bullet-container{
+  float: left;
+  margin-right: 10px;
+}
+
+.image-container {
+  margin-top: 50px;
+  float: left;
+  margin-right: 10px;
+}
+
+.default-bullet{
+  background-color: #ececec;
+} 
+
+.site-bullet-text {
+  margin-right: 20px;
+}
+
+.container-list {
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.site-headline {
+  font-family: serif;
+  font-size: 50px;
+}
+
+.site-content-container {
+  padding: 24px;
+  max-width: 550px;
+}
+
 .site-default-text {
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   line-height: 1.5;
 }
